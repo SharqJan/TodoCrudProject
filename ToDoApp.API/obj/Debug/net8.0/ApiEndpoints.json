@@ -1,0 +1,96 @@
+[
+  {
+    "ContainingType": "ToDoApp.API.Controllers.TodoController",
+    "Method": "GetAllTodos",
+    "RelativePath": "api/Todo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ToDoApp.API.Controllers.TodoController",
+    "Method": "AddTodo",
+    "RelativePath": "api/Todo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "todo",
+        "Type": "ToDoApp.API.Models.Todo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ToDoApp.API.Controllers.TodoController",
+    "Method": "UpdateTodo",
+    "RelativePath": "api/Todo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "todoUpdateRequest",
+        "Type": "ToDoApp.API.Models.Todo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ToDoApp.API.Controllers.TodoController",
+    "Method": "DeleteTodo",
+    "RelativePath": "api/Todo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ToDoApp.API.Controllers.TodoController",
+    "Method": "GetDeletedTodos",
+    "RelativePath": "api/Todo/get-deleted-todos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ToDoApp.API.Controllers.TodoController",
+    "Method": "UndoDeleteTodo",
+    "RelativePath": "api/Todo/undo-deleted-todo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "undoDeleteTodoRequest",
+        "Type": "ToDoApp.API.Models.Todo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
